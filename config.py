@@ -1,7 +1,7 @@
 from getpass import getpass
 from netmiko import ConnectHandler
 
-SWITCHES = {"S1": "192.168.1.11", "S2": "192.168.1.51"}
+SWITCHES = {"S1": "192.168.1.11", "S2": "192.168.1.21"}
 COMMANDS = ["vlan 10", "name SALES", "vlan 20", "name DEV"]
 
 username = input("username: ")
